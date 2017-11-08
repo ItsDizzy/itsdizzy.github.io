@@ -1,2 +1,0 @@
-# itsdizzy.github.io
-Portfolio
