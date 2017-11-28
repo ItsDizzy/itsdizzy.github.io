@@ -3,7 +3,7 @@ import { ConnectedRouter as Router } from 'react-router-redux';
 import { Switch, Route } from 'react-router-dom';
 
 import AppContent from './AppContent';
-import AppWrapper from './AppWrapper';
+//import AppWrapper from './AppWrapper';
 import AppFrame from './AppFrame';
 
 import Home from '../Home/Home';
@@ -15,7 +15,7 @@ export default class AppRouter extends Component {
 
     return (
       <Router history={history}>
-        <AppWrapper>
+        {/* <AppWrapper> */}
 
           <AppFrame>
             <AppContent>
@@ -29,7 +29,7 @@ export default class AppRouter extends Component {
             </AppContent>
           </AppFrame>
 
-        </AppWrapper>
+        {/* </AppWrapper> */}
       </Router>
     );
   }

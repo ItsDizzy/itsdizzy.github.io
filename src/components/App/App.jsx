@@ -3,6 +3,8 @@ import { Provider } from 'react-redux';
 
 import AppRouter from './AppRouter';
 
+import withRoot from './withRoot';
+
 class App extends Component {
   render() {
     const {store, history} = this.props;
@@ -15,4 +17,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRoot(App);

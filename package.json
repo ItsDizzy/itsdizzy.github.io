@@ -5,6 +5,9 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^1.0.0",
+    "jss": "^8.1.0",
+    "jss-preset-default": "^3.0.0",
+    "prop-types": "latest",
     "material-ui": "^1.0.0-beta.20",
     "material-ui-icons": "^1.0.0-beta.17",
     "react": "^16.0.0",
